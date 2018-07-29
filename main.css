@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    /*background: url(fondo2.jpg) no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.col-md-4 {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #01b7ee;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #ffffff;
+    border-color: #ffffff;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Bitter', serif;
+    font-weight: bolder;
+}
+
+#botonEnviar {
+    background-color: #34e251;
+    font-size: 20px;
+    color: black;
+}
+
+#botonEnviar:hover {
+    background-color: #01b7ee;
+    font-size: 20px;
+    color: black;
+}
+
+#fecha {
+    border-radius: 10px;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Bitter', serif;
+}
